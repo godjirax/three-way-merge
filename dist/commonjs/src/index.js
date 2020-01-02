@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const three_way_merge_1 = require("./three-way-merge");
+exports.merge = three_way_merge_1.default;
+exports.default = three_way_merge_1.default;
+var diff3_1 = require("./diff3");
+exports.Diff3 = diff3_1.default;
+var heckel_diff_1 = require("./heckel-diff");
+exports.Diff2 = heckel_diff_1.default;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL2tldmluL3RyYXZhaWwvZGV2eC90aHJlZS13YXktbWVyZ2UvIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHVEQUFxRDtBQUc1QyxnQkFIVyx5QkFBSyxDQUdYO0FBRGQsa0JBQWUseUJBQUssQ0FBQztBQUVyQixpQ0FBMkM7QUFBbEMsd0JBQUEsT0FBTyxDQUFTO0FBQ3pCLDZDQUFpRDtBQUF4Qyw4QkFBQSxPQUFPLENBQVMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBkZWZhdWx0IGFzIG1lcmdlIH0gZnJvbSAnLi90aHJlZS13YXktbWVyZ2UnO1xuXG5leHBvcnQgZGVmYXVsdCBtZXJnZTtcbmV4cG9ydCB7IG1lcmdlIH07XG5leHBvcnQgeyBkZWZhdWx0IGFzIERpZmYzIH0gZnJvbSAnLi9kaWZmMyc7XG5leHBvcnQgeyBkZWZhdWx0IGFzIERpZmYyIH0gZnJvbSAnLi9oZWNrZWwtZGlmZic7XG4iXX0=
