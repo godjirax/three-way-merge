@@ -3,11 +3,11 @@ import MergeResult from './merge-result';
 import Collater, {JoinFunction, ConflictFunction} from './collater';
 import resolver from './resolver';
 
-const defaultJoinFunction = (a: string[]) => a.join('');
-const defaultSplitFunction = (s: string) => s.split(/\b/);
-const defaultConflictFunction = resolver('<<<<<<< YOUR CHANGES',
+const defaultJoinFunction = (a: string[]) => a.join('\n');
+const defaultSplitFunction = (s: string) => s.split('\n');
+const defaultConflictFunction = resolver('<<<<<<< CURRENT CHANGES',
                                          '=======',
-                                         '>>>>>>> APP AUTHORS CHANGES',
+                                         '>>>>>>> INCOMING CHANGES',
                                          defaultJoinFunction);
 
 const defaultOptions = {
